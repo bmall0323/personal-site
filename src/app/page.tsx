@@ -1,9 +1,9 @@
-export default function Home() {
+export default function Page() {
   return (
-    <section className="text-center">
-      <div className="space-y-8">
+    <section className="relative min-h-screen bg-cover bg-center text-center overflow-hidden animate-fadeIn" style={{ backgroundImage: 'url(/background.svg)' }}>
+      <div className="space-y-8 pt-32 pb-16">
         <div className="space-y-4">
-          <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text text-transparent">
             Hi, I'm Bill 👋
           </h1>
           <p className="text-xl text-secondary max-w-2xl mx-auto">
