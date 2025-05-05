@@ -17,20 +17,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} antialiased`}>
-        <div className="min-h-screen flex flex-col">
-          <Header />
-          <main className="flex-grow container px-4 py-8 sm:px-6 lg:px-8">
-            {children}
+        <div className="min-h-screen">
+          <main className="min-h-screen relative">
+            <div className="absolute inset-0 bg-black/40 z-0"></div>
+            <div className="relative z-10">
+              {children}
+            </div>
           </main>
-          <Footer />
         </div>
       </body>
     </html>
-  );
+  )
 }
