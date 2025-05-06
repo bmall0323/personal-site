@@ -32,6 +32,20 @@ export default function Projects() {
             Projects
           </h1>
           <div className="max-w-4xl mx-auto mt-8 space-y-6">
+            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 shadow-lg">
+              <h2 className="text-2xl font-semibold text-white mb-4">Sales Analysis</h2>
+              <div className="aspect-w-16 aspect-h-9 w-full">
+                <iframe 
+                  title="Anonymized_Data" 
+                  className="w-full h-[500px] rounded-lg shadow-md" 
+                  src="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9" 
+                  frameBorder="0" 
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <p className="mt-4 text-white/80">Interactive data visualization showing anonymized metrics and insights.</p>
+            </div>
+            
             <ProjectCard
               title="Square + Power BI Integration"
               description="Automated daily sales data pipeline from Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
@@ -49,7 +63,23 @@ export default function Projects() {
         {/* Footer */}
         <footer className="w-full p-6 border-t border-white/10 mt-8">
           <div className="max-w-4xl mx-auto">
-            <p className="text-sm text-white/80"> {new Date().getFullYear()} Bill Malley</p>
+            <p className="text-sm text-white/80">© {new Date().getFullYear()} Bill Malley</p>
+            <div className="mt-2 space-x-4">
+              <a
+                href="mailto:bill@malleyanalytics.com"
+                className="text-white hover:text-gray-200 transition-colors"
+              >
+                Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/bill-malley"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-gray-200 transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
         </footer>
       </div>
