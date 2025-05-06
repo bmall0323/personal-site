@@ -32,30 +32,30 @@ export default function Projects() {
             Projects
           </h1>
           <div className="max-w-4xl mx-auto mt-8 space-y-6">
-            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-              <h2 className="text-2xl font-semibold text-white mb-4">Sales Analysis</h2>
-              <div className="aspect-w-16 aspect-h-9 w-full">
-                <iframe 
-                  title="Anonymized_Data" 
-                  className="w-full h-[500px] rounded-lg shadow-md" 
-                  src="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9" 
-                  frameBorder="0" 
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <p className="mt-4 text-white/80">Interactive data visualization showing anonymized metrics and insights.</p>
-            </div>
-            
-            <ProjectCard
-              title="Square + Power BI Integration"
-              description="Automated daily sales data pipeline from Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
-              link="https://github.com/your-username/square-powerbi-project"
-            />
-            <ProjectCard
-              title="Klaviyo Marketing Analytics"
-              description="Connected Klaviyo email campaign data to Power BI to create a custom marketing performance dashboard for a retail client."
-              link="https://github.com/your-username/klaviyo-powerbi"
-            />
+            <a 
+              href="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <ProjectCard
+                title="Square + Power BI Integration"
+                description="Automated daily sales data pipeline from Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
+                link="https://github.com/your-username/square-powerbi-project"
+              />
+            </a>
+            <a 
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <ProjectCard
+                title="Klaviyo Marketing Analytics"
+                description="Connected Klaviyo email campaign data to Power BI to create a custom marketing performance dashboard for a retail client."
+                link="https://github.com/your-username/klaviyo-powerbi"
+              />
+            </a>
             {/* Add more ProjectCard components here */}
           </div>
         </div>
