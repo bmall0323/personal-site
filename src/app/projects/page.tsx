@@ -40,8 +40,8 @@ export default function Projects() {
             >
               <ProjectCard
                 title="Square + Power BI Integration"
-                description="Automated daily sales data pipeline from Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
-                link="https://github.com/your-username/square-powerbi-project"
+                description="Automated daily sales data pipeline from client ERP system and Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
+                link="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
               />
             </a>
             <a 
