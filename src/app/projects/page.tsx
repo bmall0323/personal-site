@@ -52,7 +52,7 @@ export default function Projects() {
             >
               <ProjectCard
                 title="Logistics & Demand Forecasting"
-                description="Connected to multiple data sources to analyze and forecast demand for a fictitious hard goods company"
+                description="This project simulates a logistics and demand planning dashboard for a premium hard goods brand. It forecasts product demand, tracks freight and inventory performance, and highlights operational insights using mock sales, shipment, and cost data."
                 link="https://app.powerbi.com/view?r=eyJrIjoiNTZjNTNkZTktYTMxOS00MGZkLTlhYzktNGZjZDcwZWQ5NGRkIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
               />
             </a>
