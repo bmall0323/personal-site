@@ -51,9 +51,9 @@ export default function Projects() {
               className="block hover:opacity-90 transition-opacity"
             >
               <ProjectCard
-                title="Klaviyo Marketing Analytics"
-                description="Connected Klaviyo email campaign data to Power BI to create a custom marketing performance dashboard for a retail client."
-                link="https://github.com/your-username/klaviyo-powerbi"
+                title="Logistics & Demand Forecasting"
+                description="Connected to multiple data sources to analyze and forecast demand for a fictitious hard goods company"
+                link="https://app.powerbi.com/view?r=eyJrIjoiNTZjNTNkZTktYTMxOS00MGZkLTlhYzktNGZjZDcwZWQ5NGRkIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
               />
             </a>
             {/* Add more ProjectCard components here */}
