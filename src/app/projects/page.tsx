@@ -33,7 +33,7 @@ export default function Projects() {
           </h1>
           <div className="max-w-4xl mx-auto mt-8 space-y-6">
             <a 
-              href="https://app.powerbi.com/view?r=eyJrIjoiZDM2YTU0NDAtYTUzMC00MGZkLWI3MzMtNTliZGZmMmZmYmNjIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="block hover:opacity-90 transition-opacity"
@@ -41,7 +41,7 @@ export default function Projects() {
               <ProjectCard
                 title="Square + Power BI Integration"
                 description="Automated daily sales data pipeline from client ERP system and Square API into Power BI dashboards using Python, Parquet files, and scheduled refreshes."
-                link="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
+                link="https://app.powerbi.com/view?r=eyJrIjoiMGY3MmYxZDQtZDc2Ni00ZTg4LTk5MTktNGQyMmI1ODlkNGQ4IiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
               />
             </a>
             <a 
