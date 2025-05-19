@@ -33,7 +33,7 @@ export default function Projects() {
           </h1>
           <div className="max-w-4xl mx-auto mt-8 space-y-6">
             <a 
-              href="https://app.powerbi.com/view?r=eyJrIjoiMWNmZTM1ZGEtYzc5Mi00ZDUyLWEzNTktNjFhNDA4ZDIzYjZhIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
+              href="https://app.powerbi.com/view?r=eyJrIjoiZDM2YTU0NDAtYTUzMC00MGZkLWI3MzMtNTliZGZmMmZmYmNjIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
               target="_blank"
               rel="noopener noreferrer"
               className="block hover:opacity-90 transition-opacity"
