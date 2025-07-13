@@ -31,7 +31,7 @@ export default function Projects() {
           <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
             Projects
           </h1>
-          <div className="max-w-4xl mx-auto mt-8 space-y-6">
+          <div className="max-w-6xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <a 
               href="#"
               target="_blank"
@@ -54,6 +54,18 @@ export default function Projects() {
                 title="Logistics & Demand Forecasting"
                 description="This project simulates a logistics and demand planning dashboard for a premium hard goods brand. It forecasts product demand, tracks freight and inventory performance, and highlights operational insights using mock sales, shipment, and cost data."
                 link="https://app.powerbi.com/view?r=eyJrIjoiNTZjNTNkZTktYTMxOS00MGZkLTlhYzktNGZjZDcwZWQ5NGRkIiwidCI6IjlmMTIxNTRmLWRjMmMtNDM3NC05YzE0LTdjZTFkNWJjODRiYSJ9"
+              />
+            </a>
+            <a 
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <ProjectCard
+                title="Demand Forecasting Tool"
+                description="Python-based demand forecasting system that processes historical sales data, implements time series analysis, and generates predictive models for inventory planning and sales optimization."
+                link="https://forecasting-app.vercel.app/"
               />
             </a>
             {/* Add more ProjectCard components here */}
