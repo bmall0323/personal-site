@@ -28,16 +28,16 @@ export default function Page() {
         {/* Main Content */}
         <div className="space-y-8 py-32">
           <div className="space-y-4">
-            <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent text-shadow-xl">
               Hi, I'm Bill
             </h1>
-            <p className="text-xl text-white max-w-2xl mx-auto">
+            <p className="text-xl text-white max-w-2xl mx-auto text-shadow">
               Data Analyst & Climate Technologist
             </p>
           </div>
           
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg text-white/90">
+            <p className="text-xl text-white/95 leading-relaxed text-shadow">
               I build dashboards, wrangle messy data, and explore how analytics can help power a more sustainable world.
             </p>
           </div>

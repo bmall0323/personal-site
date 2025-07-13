@@ -28,11 +28,11 @@ export default function About() {
         {/* Main Content */}
         <div className="space-y-8 py-32 px-4">
           <div className="space-y-6">
-            <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent text-shadow-xl">
               About Me
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-lg text-white/90 [&>br]:block [&>br]:h-6">
+              <p className="text-xl text-white/95 [&>br]:block [&>br]:h-6 leading-relaxed text-shadow">
                 I'm Bill Malley, a San Francisco-based data analyst with a deep interest in climate tech, 
                 sustainability, and building tools that help teams make better decisions. I've spent the last 
                 few years working in analytics, business intelligence, and strategy, and I'm now focused on 
